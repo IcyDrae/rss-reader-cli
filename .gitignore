@@ -1,5 +1,6 @@
 .idea/
 venv/
+src/__pycache__/
 
 cron
 config.ini
