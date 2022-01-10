@@ -1,0 +1,24 @@
+[project]
+name = "rss-reader-cli"
+version = "v1.0.0"
+description = "A minimalistic RSS reader for the CLI using a cron job!"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+keywords = ["rss", "rss-reader", "cli"]
+authors = [
+  {email = "hey@dev-handbook.net"},
+  {name = "Ray"}
+]
+maintainers = [
+  {name = "Ray", email = "hey@dev-handbook.net"}
+]
+
+dependencies = [
+  "feedparser",
+  "configparser"
+]
+
+[project.urls]
+homepage = "https://github.com/MatrixEternal/rss-reader-cli"
+repository = "https://github.com/MatrixEternal/rss-reader-cli"
